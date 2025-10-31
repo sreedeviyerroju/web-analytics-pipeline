@@ -1,15 +1,20 @@
-# Ignore data and cache files
-data/*
-!data/data-raw/
+# Ignore raw data (not uploaded to GitHub)
+data/data-raw/*
+
+# Keep processed data and structure
+!data/processed/
+!data/processed/*.parquet
+!data/processed/*.csv
+!data/.gitkeep
+
+# Ignore cache and temp files
 __pycache__/
 *.pyc
-*.parquet
-*.csv
 
 # Ignore virtual environments
 venv/
 .env/
 
-# Ignore OS files
+# Ignore OS/system files
 .DS_Store
 Thumbs.db

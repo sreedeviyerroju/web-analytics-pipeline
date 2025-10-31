@@ -1,0 +1,15 @@
+# Ignore data and cache files
+data/*
+!data/data-raw/
+__pycache__/
+*.pyc
+*.parquet
+*.csv
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db

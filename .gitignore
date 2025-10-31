@@ -1,11 +1,3 @@
-# Ignore raw data (not uploaded to GitHub)
-data/data-raw/*
-
-# Keep processed data and structure
-!data/processed/
-!data/processed/*.parquet
-!data/processed/*.csv
-!data/.gitkeep
 
 # Ignore cache and temp files
 __pycache__/
